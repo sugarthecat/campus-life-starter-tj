@@ -1,0 +1,28 @@
+
+.flex-vert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-horiz {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#articles {
+  width: 50%;
+}
+#headline {
+  width: 45%;
+}
+#headline img{
+    width: 80%;
+}
+.club , .event{
+  width: 33%;
+}
+.club img, .event img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
